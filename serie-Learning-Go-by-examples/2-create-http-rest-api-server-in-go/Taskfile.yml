@@ -7,7 +7,7 @@ tasks:
         - GOFLAGS=-mod=mod go build -o bin/go-rest-api internal/main.go 
 
         # Windows 32 bits
-        #. GOOS=windows GOARCH=386 go build -o bin/go-rest-api-win-386 internal/main.go
+        # GOOS=windows GOARCH=386 go build -o bin/go-rest-api-win-386 internal/main.go
 
         # Windows 64 bits
         # GOOS=windows GOARCH=amd64 go build -o bin/go-rest-api-win-64 internal/main.go
