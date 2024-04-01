@@ -8,6 +8,7 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
+	//"github.com/spf13/viper"
 )
 
 
@@ -15,7 +16,7 @@ import (
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "gopher-cli",
-	Short: "A brief description of your application",
+	Short: "Gopher CLI in Go",
 	Long: `A longer description that spans multiple lines and likely contains
 examples and usage of using your application. For example:
 
